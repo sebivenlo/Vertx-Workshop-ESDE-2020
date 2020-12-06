@@ -24,10 +24,12 @@ The goal is to create a docker image of `VertxRESTServer` and to deploy it. This
 ### 3 How to do the assignment
 Assuming all prerequisites are installed and the `VertxRESTServer` is running in Docker:
 1. Open `VertxWorkshopAssignment`
+
 2. Tasks are declared as "// Todo X" (where X is the task number that declares the order). It is useful to have them displayed.
    - Netbeans: `Windows → Action Items` OR `press ctrl + 6 in order to open the "Action Items" tab`
    - Eclipse: Go to `Window → Show View → Tasks`
    - IntelliJ: `View →  Tool Windows →  TODO` OR `ctrl + numpad +`
+   
 3. Work on them
  
 
