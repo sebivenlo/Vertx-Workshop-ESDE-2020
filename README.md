@@ -1,6 +1,6 @@
 # Vertx-workshop
 
-Vertx is a java framework that allows you to write event-driven application by developing components in the language that you think most appropriate for the task, such as Java,Kotlin, Scala,Ruby and so on.
+Vertx is a java framework that allows you to develop concurrent event-driven application. This workshop is supposed to teach fundamental concepts as well as relevant use cases.
 
 ### Start the application using Docker
 create a Vert.x docker image of our application.
