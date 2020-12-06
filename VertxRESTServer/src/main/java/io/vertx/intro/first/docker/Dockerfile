@@ -6,8 +6,8 @@ FROM vertx/vertx3
 
 #                                                       (1)
  
-ENV VERTICLE_NAME io.vertx.intro.first.MyFirstVerticle
-ENV VERTICLE_FILE my-first-app-1.0-SNAPSHOT.jar
+ENV VERTICLE_NAME io.vertx.intro.first.RESTVerticle
+ENV VERTICLE_FILE VertxRESTServer-1.0-SNAPSHOT.jar
 
 # Set the location of the verticles
 ENV VERTICLE_HOME /usr/verticles
