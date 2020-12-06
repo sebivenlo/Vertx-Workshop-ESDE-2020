@@ -27,13 +27,13 @@ public class VertxHttpClientVerticle extends AbstractVerticle {
      */
     @Override
     public void start() throws Exception {
-        // TODO8: Insert data by using @post
+        // TODO8: Add "progresswww" (https://progresswww.nl) by using @post
         WebClient client = WebClient.create(vertx);
         client
                 .post(8080, "localhost", "/api/articles")
                 .sendJsonObject(new JsonObject()
-                        .put("title", "Dale")
-                        .put("url", "Cooper"), ar -> {
+                        .put("title", "Website about achieved grades")
+                        .put("url", "https://progresswww.nl"), ar -> {
                     if (ar.succeeded()) {
                         // Ok
                     }

@@ -72,9 +72,9 @@ public class RESTVerticle extends AbstractVerticle {
 
     // Create a readingList
     private void createSomeData() {
-        Article article1 = new Article("Fallacies of distributed computing", "https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing");
+        Article article1 = new Article("Utility platform for students and lectures", "https://peerweb.fontysvenlo.org/");
         readingList.put(article1.getId(), article1);
-        Article article2 = new Article("Reactive Manifesto", "https://www.reactivemanifesto.org/");
+        Article article2 = new Article("Main web page of Fontys", "https://connect.fontys.nl");
         readingList.put(article2.getId(), article2);
     }
 
