@@ -18,7 +18,7 @@ This creates an image name vertx_test which we can now execute.
 #### 2.2 Then run it with:                
     docker run -it -p 8080:8080 vertx_rest
 
-#### 3.3 Validate if it is runnable
+#### 2.3 Validate if it is runnable
 Open "Docker Desktop" -> Click on Container/Apps -> you now should see the application running (glowing green and labeled as "RUNNING").
  
 
