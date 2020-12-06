@@ -10,7 +10,7 @@ create a Vert.x docker image of our application.
 This creates an image name vertx_test which we can now execute.
 
 ### Then run it with :                
-    docker run -it -p 8080:8080 vertx_test
+    docker run -it -p 8080:8080 vertx_rest
 
  
  
