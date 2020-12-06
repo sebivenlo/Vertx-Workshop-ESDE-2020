@@ -242,3 +242,4 @@ TSWLatexianTemp*
 *.spl
 /main.pdf
 /example.pdf
+/VertxRESTServer/target/
