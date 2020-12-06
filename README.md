@@ -1,4 +1,4 @@
-# Vertx-workshop
+# Vertx-Workshop
 
 Vertx is a java framework that allows you to develop concurrent event-driven application. This workshop is supposed to teach fundamental concepts as well as relevant use cases.
 
