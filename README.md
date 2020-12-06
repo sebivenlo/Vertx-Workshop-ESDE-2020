@@ -22,11 +22,11 @@ create a Vert.x docker image of our application.
      CMD ["exec vertx run $VERTICLE_NAME -cp $VERTICLE_HOME/*"]
 
 #### build the image with:
- docker build -t vertx_test  .
- This creates an image name vertx_test which we can now execute.
+     docker build -t vertx_test  .
+This creates an image name vertx_test which we can now execute.
  
- Then run it with: 
-  docker run -it -p 8080:8080 vertx_test
+Then run it with: 
+    docker run -it -p 8080:8080 vertx_test
 
  
  
