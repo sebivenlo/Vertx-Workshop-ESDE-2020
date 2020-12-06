@@ -18,8 +18,8 @@ The goal is to create a docker image of `VertxRESTServer` and to deploy it. This
     docker run -it -p 8080:8080 vertx_rest
 
 #### 2.3 Validate if it is runnable
-Open "Docker Desktop" -> Click on Container/Apps -> you now should see the application running (glowing green and labeled as "RUNNING").
-Furthermore you can check with your browser/postman if it is accessible by calling http://localhost:8080/api/articles (GET all).
+* Open "Docker Desktop" -> Click on Container/Apps -> you now should see the application running (glowing green and labeled as "RUNNING").
+* Furthermore you can check with your browser/postman if it is accessible by calling http://localhost:8080/api/articles (GET all).
  
 ### 3 How to do the assignment
 Assuming all prerequisites are installed and the `VertxRESTServer` is running in Docker:
