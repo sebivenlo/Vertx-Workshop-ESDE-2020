@@ -3,7 +3,7 @@
 Vertx is a java framework that allows you to write event-driven application by developing components in the language that you think most appropriate for the task, such as Java,Kotlin, Scala,Ruby and so on.
 
 ### Start the application using Docker
-step1: create a Vert.x docker image of our application.
+create a Vert.x docker image of our application.
 
 #### first create Dockerfile and place this Dockerfile into a folder along with the compiled JAR.
 
@@ -21,6 +21,15 @@ WORKDIR $VERTICLE_HOME
 ENTRYPOINT ["sh", "-c"]
 CMD ["exec vertx run $VERTICLE_NAME -cp $VERTICLE_HOME/*"]
 
+#### build the image with:
+ docker build -t vertx_test  .
+ This creates an image name vertx_test which we can now execute.
+ 
+ Then run it with: 
+ docker run -it -p 8080:8080 vertx_test
+
+ 
+ 
 
 
 
