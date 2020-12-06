@@ -18,7 +18,7 @@ public class EventBusReceiverVerticle extends AbstractVerticle {
     }
 
     /**
-     * TODO4: Implement a consumer that takes an address (@String) and a handler
+     * TODO 4: Implement a consumer that takes an address (@String) and a handler
      * that proofs that messages can be received.
      *
      * Hint: use vertx.eventBus() to provide a reference for the verticle to the

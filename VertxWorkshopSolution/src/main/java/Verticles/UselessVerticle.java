@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class UselessVerticle extends AbstractVerticle {
 
     /**
-     * TODO3: Undeploy the Verticle after 5 seconds. Hint: Use vertx.setTimer!
+     * TODO 3: Undeploy the Verticle after 5 seconds. Hint: Use vertx.setTimer!
      *
      * @throws Exception
      */
