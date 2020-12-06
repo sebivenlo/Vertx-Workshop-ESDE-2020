@@ -7,19 +7,19 @@ create a Vert.x docker image of our application.
 
 #### first create Dockerfile and place this Dockerfile into a folder along with the compiled JAR.
 
-FROM vertx/vertx3
-ENV VERTICLE_NAME io.vertx.intro.first.MyFirstVerticle
-ENV VERTICLE_FILE my-first-app-1.0-SNAPSHOT.jar
+      FROM vertx/vertx3
+      ENV VERTICLE_NAME io.vertx.intro.first.MyFirstVerticle
+      ENV VERTICLE_FILE my-first-app-1.0-SNAPSHOT.jar
  
-ENV VERTICLE_HOME .
+      ENV VERTICLE_HOME .
  
-EXPOSE 8080
+      EXPOSE 8080
  
-COPY $VERTICLE_FILE $VERTICLE_HOME/
+     COPY $VERTICLE_FILE $VERTICLE_HOME/
  
-WORKDIR $VERTICLE_HOME
-ENTRYPOINT ["sh", "-c"]
-CMD ["exec vertx run $VERTICLE_NAME -cp $VERTICLE_HOME/*"]
+     WORKDIR $VERTICLE_HOME
+     ENTRYPOINT ["sh", "-c"]
+     CMD ["exec vertx run $VERTICLE_NAME -cp $VERTICLE_HOME/*"]
 
 #### build the image with:
  docker build -t vertx_test  .
