@@ -24,9 +24,9 @@ public class VertxHttpClientVerticle extends AbstractVerticle {
      */
     @Override
     public void start() throws Exception {
-        // TODO8: Add "progresswww" (https://progresswww.nl) by using @post
+        // TODO 8: Add "progresswww" (https://progresswww.nl) by using @post
         WebClient client = WebClient.create(vertx);
 
-        // TODO9: Receive all data by using @get
+        // TODO 9: Receive all data by using @get
     }
 }
