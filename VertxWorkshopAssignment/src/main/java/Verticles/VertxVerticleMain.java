@@ -11,7 +11,7 @@ public class VertxVerticleMain {
 
     public static void main(String[] args) throws InterruptedException {
         // TODO 1: Create the vertx instance
-
+        
         // TODO 2: Deploy the UselessVerticle
         
         // TODO 5: Deploy two verticles with two different addresses
