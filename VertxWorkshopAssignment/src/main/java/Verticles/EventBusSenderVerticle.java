@@ -11,7 +11,7 @@ import io.vertx.core.Future;
 public class EventBusSenderVerticle extends AbstractVerticle {
 
     /**
-     * Todo6: Send one message to all receiver-verticles and one message to one
+     * TODO 6: Send one message to all receiver-verticles and one message to one
      * verticle.
      *
      * Hint: publish and send
