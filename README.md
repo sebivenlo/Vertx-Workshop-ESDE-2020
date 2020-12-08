@@ -2,6 +2,8 @@
 
 Vertx is a java framework that allows you to develop concurrent event-driven application. This workshop is supposed to teach fundamental concepts as well as relevant use cases.
 
+# Use Cases
+Vert.x is great for applications that require concurrency. Be it modern apps that deal with high traffic (e.g. Instagram, Facebook etc.) and a lot of responsiblities at the same time or for other scenarios where should be split up to reduce execution time. A good example for splitting up workload is Selenium. It is a testing framework to test web applications. Test cycles are often time costly since many web forms must be filled out and navigated through. Given a huge amount of test cases it would be helpful to split them up so that parallel execution is possible. Vert.x would be a good choice for that goal.
 ### 1 Prerequisites
 * Any Java IDE, e.g. Netbeans (https://netbeans.apache.org/download/index.html)
 * JDK 1.8.0 or later. You can use the official Oracle distribution or the OpenJDK version. Make sure the JDK bin directory is on your PATH.
